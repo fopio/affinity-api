@@ -1,0 +1,26 @@
+{
+    "name": "fopio/affinity-api",
+    "description": "affinity api package",
+    "version": "1.0.0",
+    "type": "library",
+
+    "require": {
+        "nesbot/carbon": "1.*",
+        "owen-it/laravel-auditing": "4.1.4"
+    },
+    "license": "MIT",
+    "minimum-stability": "dev",
+
+    "autoload": {
+        "psr-4": {
+            "Fopio\\AffinityAPI\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+
+            ]
+        }
+    }
+}
